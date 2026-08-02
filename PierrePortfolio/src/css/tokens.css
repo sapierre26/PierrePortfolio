@@ -9,10 +9,6 @@
     --main-text-color: #FFFFFF;
     --sub-text-color: #000000;
 
-    /* EXTRAS */
-    --image-overlay-color: rgba(0, 0, 0, 0.3);
-    --border-radius: 20px;
-
     /* FONT SIZES */
     --navbar-brand-font-size: 40px;
     --navbar-link-font-size: 20px;
@@ -23,13 +19,15 @@
     --section-h3-size: 24px;
     --section-p-size: 18px;
 
-    --item-h1-size: 36px;
-    --item-h2-size: 32px;
-    --item-h1-p-size: 28px;
+    --item-h1-size: 22px;
+    --item-h2-size: 20px;
+    --item-p-size: 20px;
+    --item-list-size: 16px;
 
     /* LAYOUT CHOICES */
     --margin-zero: 0px auto;
     --margin-top: 50px;
+    --margin-top-small: 25px;
 
     --padding-zero: 0px;
     --padding-body: 32px;
@@ -37,4 +35,10 @@
 
     --navbar-gap: 16px;
     --grid-gap: 30px;
+    --logo-gap: 7px;
+
+    /* EXTRAS */
+    --image-overlay-color: rgba(0, 0, 0, 0.3);
+    --border-radius: 20px;
+    --logo-size: 25px;
 }
