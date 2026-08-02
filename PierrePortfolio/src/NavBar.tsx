@@ -8,7 +8,7 @@ function NavBar() {
             <Container>
                 <Navbar.Brand href="/">Sanaia Pierre</Navbar.Brand>
 
-                <Navbar.Toggle aria-controls="hamburger-nav-menu" />
+                {/* <Navbar.Toggle aria-controls="hamburger-nav-menu" /> */}
                 <Navbar.Collapse id="hamburger-nav-menu">
                     <Nav className="nav-bar-items">
                         <Nav.Link href="/#home">Home</Nav.Link>
