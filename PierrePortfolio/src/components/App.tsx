@@ -16,15 +16,10 @@ function App() {
       
       <div className="background-gradient">
         <NavBar variant="blur" />
-
         <Header />
-
         <About />
-
         <Projects />
-
         <Resume />
-
         <Footer />
       </div>
     </>

@@ -15,6 +15,16 @@
     /* FONT SIZES */
     --navbar-brand-font-size: 40px;
     --navbar-link-font-size: 20px;
+    --larger-h1-size: 64px;
+
+    --section-h1-size: 64px;
+    --section-h2-size: 44px;
+    --section-h3-size: 32px;
+    --section-p-size: 32px;
+
+    --item-h1-size: 36px;
+    --item-h2-size: 32px;
+    --item-h1-p-size: 28px;
 
     /* LAYOUT CHOICES */
     --margin-zero: 0px;
@@ -22,4 +32,7 @@
     --margin-size: 20px;
     --padding-size-navbar: 20px;
     --navbar-gap: 16px;
+
+    /* IMAGE DETAILS */
+    --img-border-radius: 20px;
 }
