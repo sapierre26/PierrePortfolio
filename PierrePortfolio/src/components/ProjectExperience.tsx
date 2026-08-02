@@ -1,4 +1,4 @@
-import ProjectItem from './ProjectItem.tsx'
+// import ProjectItem from './ProjectItem.tsx'
 
 function Projects() {
   return (
@@ -7,7 +7,7 @@ function Projects() {
         <h1>PROJECT EXPERIENCE</h1>
 
         <div id="project-horizontal-slider">
-          <ProjectItem />
+          {/* <ProjectItem /> */}
         </div>
       </section>
     </>

@@ -1,0 +1,15 @@
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  margin: var(--margin-zero);
+  padding: var(--padding-zero);
+  color: var(--main-text-color);
+}

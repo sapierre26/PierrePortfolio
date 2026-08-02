@@ -1,11 +1,11 @@
-import aboutMeImg from './assets/images/about_me_image.jpg'
+// import aboutMeImg from './assets/images/about_me_image.jpg'
 
 function About() {
   return (
     <>
       <section id="about-me-section">
         <div id="about-me-img">
-          <img src={aboutMeImg} alt="Photo of Sanaia from her graduation" />
+          {/* <img src={aboutMeImg} alt="Photo of Sanaia from her graduation" /> */}
         </div>
 
         <div id="about-me-description">

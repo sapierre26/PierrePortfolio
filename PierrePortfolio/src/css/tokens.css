@@ -1,0 +1,25 @@
+:root {
+    /* COLOR THEME */
+    --main-background-color: #001D00;
+    --sub-background-color: #274006;
+    --main-accent-color: #F7C9CC;
+    --sub-accent-color: #27060F;
+
+    /* SUPPORT COLORS */
+    --main-text-color: #FFFFFF;
+    --sub-text-color: #000000;
+
+    /* EXTRAS */
+    --image-overlay-color: rgba(0, 0, 0, 0.3);
+
+    /* FONT SIZES */
+    --navbar-brand-font-size: 40px;
+    --navbar-link-font-size: 20px;
+
+    /* LAYOUT CHOICES */
+    --margin-zero: 0px;
+    --padding-zero: 0px;
+    --margin-size: 20px;
+    --padding-size-navbar: 20px;
+    --navbar-gap: 16px;
+}
