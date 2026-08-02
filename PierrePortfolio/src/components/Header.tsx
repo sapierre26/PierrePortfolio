@@ -1,3 +1,4 @@
+import '../css/tokens.css'
 import '../css/Header.css'
 import profileImg from '../assets/images/profile_image.png'
 
