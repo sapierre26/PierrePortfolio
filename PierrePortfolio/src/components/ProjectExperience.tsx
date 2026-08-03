@@ -5,11 +5,10 @@ import ProjectItem from './ProjectItem.tsx'
 function Projects() {
   return (
     <>
-      <section className="container" id="projects-section">
-        <h1>PROJECT EXPERIENCE</h1>
+      <section id="projects-section">
+        <h1>FEATURED PROJECT EXPERIENCE</h1>
 
-        <div id="project-horizontal-slider">
-          <ProjectItem />
+        <div id="featured-projects">
           <ProjectItem />
           <ProjectItem />
           <ProjectItem />

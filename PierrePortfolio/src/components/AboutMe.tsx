@@ -5,7 +5,7 @@ import aboutMeImg from '../assets/images/about_me_image.jpg'
 function About() {
   return (
     <>
-      <div className="container mx-auto text-start" id="about-me-section">
+      <div id="about-me-section">
         <div id="about-me-main-bio">
           <div id="about-me-img">
             <img src={aboutMeImg} alt="Photo of Sanaia from her graduation" />
@@ -23,7 +23,7 @@ function About() {
           </section>
         </div>
         
-        <div className="text-start" id="continued-bio">
+        <div id="continued-bio">
             <p>Currently, I’ve continued my employment on my university campus as a Student Web Developer for the <b>Office of Academic Innovations & Programs (AIP)</b>. Here, I have worked on maintaining Drupal sites for the units that fall under AIP. Most notably, I developed the web pages for an event called the AI Symposium 2026, as well as an online flip book that was used as the agenda.</p>
 
             <p>For my next steps, I’ve been accepted into the <b>Disney College Program</b>, which I will be participating in post-grad! I will be spending the next few months working for Walt Disney World. More importantly, I’m excited to meet so many new people in my cohort, network, develop some of my interpersonal skills, and hopefully, visit the Disney Parks!</p>

@@ -1,22 +1,47 @@
 /* PROJECT EXPERIENCE */
 #projects-section {
-    margin-top: var(--margin-top);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--grid-gap);
+    max-width: var(--max-content-width);
+    margin: var(--margin-zero);
+    padding: var(--padding-body);
+    border: 1px solid red;
 }
 
 #projects-section h1 {
     font-size: var(--section-h1-size);
 }
 
-#project-horizontal-slider {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+#featured-projects {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 0.5fr));
     gap: var(--grid-gap);
-    margin-top: var(--margin-top-small);
+    justify-content: center;
+}
+
+@media (max-width: 991.98px) {
+    #projects-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: var(--grid-gap);
+        max-width: var(--max-content-width);
+        margin: var(--margin-zero);
+        padding: var(--padding-body-sub);
+        border: 1px solid red;
+    }
+
+    #featured-projects {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
 }
 
 /* PROJECT ITEM */
 .card {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
     border-bottom-left-radius: var(--border-radius);
     border-bottom-right-radius: var(--border-radius);
     background-color: var(--sub-background-color) !important;
@@ -64,3 +89,4 @@
     height: var(--logo-size);
     width: var(--logo-size);
 }
+

@@ -8,7 +8,7 @@ import siteLinkLogo from '../assets/icons/site_link.svg'
 function ProjectItem() {
   return (
     <>
-      <div className="card project-item" style={{ width: '325px' }}>
+      <div className="card project-item">
         <div className="project-item-tab-rect"></div>
 
         <section className="card-body project-item-main-rect">
