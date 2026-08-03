@@ -1,5 +1,5 @@
 /* RESUME EXPERIENCE */
-#resume-section {
+#resume {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +9,7 @@
     padding: var(--padding-body);
 }
 
-#resume-section h1 {
+#resume h1 {
     font-size: var(--section-h1-size);
 }
 
@@ -19,7 +19,7 @@
 }
 
 @media (max-width: 991.98px) {
-    #resume-section {
+    #resume {
         display: flex;
         flex-direction: column;
         justify-content: center;

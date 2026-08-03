@@ -5,7 +5,7 @@ import ResumeItem from './ResumeItem.tsx'
 function Resume() {
   return (
     <>
-      <section id="resume-section">
+      <section id="resume">
         <h1>RELEVANT WORK EXPERIENCE</h1>
 
         <div id="featured-experience">

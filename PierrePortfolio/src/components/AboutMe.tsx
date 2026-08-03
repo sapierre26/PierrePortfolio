@@ -5,7 +5,7 @@ import aboutMeImg from '../assets/images/about_me_image.jpg'
 function About() {
   return (
     <>
-      <div id="about-me-section">
+      <div id="about">
         <div id="about-me-main-bio">
           <div id="about-me-img">
             <img src={aboutMeImg} alt="Photo of Sanaia from her graduation" />

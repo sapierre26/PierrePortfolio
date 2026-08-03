@@ -1,5 +1,5 @@
 /* PROJECT EXPERIENCE */
-#projects-section {
+#projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +9,7 @@
     padding: var(--padding-body);
 }
 
-#projects-section h1 {
+#projects h1 {
     font-size: var(--section-h1-size);
 }
 
@@ -21,7 +21,7 @@
 }
 
 @media (max-width: 991.98px) {
-    #projects-section {
+    #projects {
         display: flex;
         flex-direction: column;
         justify-content: center;

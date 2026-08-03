@@ -5,7 +5,7 @@ import ProjectItem from './ProjectItem.tsx'
 function Projects() {
   return (
     <>
-      <section id="projects-section">
+      <section id="projects">
         <h1>FEATURED PROJECT EXPERIENCE</h1>
 
         <div id="featured-projects">

@@ -26,9 +26,9 @@ function NavBar({ variant = 'none' }: Props) {
 
                     <Nav onSelect={() => setExpanded(false)}>
                         <Nav.Link href="/#">Home</Nav.Link>
-                        <Nav.Link href="/#about-me-section">About</Nav.Link>
-                        <Nav.Link href="/#projects-section">Projects</Nav.Link>
-                        <Nav.Link href="/#resume-section">Resume</Nav.Link>
+                        <Nav.Link href="/#about">About</Nav.Link>
+                        <Nav.Link href="/#projects">Projects</Nav.Link>
+                        <Nav.Link href="/#resume">Resume</Nav.Link>
                     </Nav>
                 
                     </Navbar.Collapse>
