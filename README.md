@@ -23,5 +23,3 @@
    ```sh
    npm run dev
    ```
-
-
