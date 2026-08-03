@@ -1,0 +1,11 @@
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--grid-gap);
+    max-width: var(--max-content-width);
+    margin: var(--margin-zero);
+    padding: var(--padding-footer);
+    font-size: var(--footer-p-size);
+    text-align: center;
+}
