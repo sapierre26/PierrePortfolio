@@ -10,8 +10,8 @@ function Resume() {
 
         <div id="featured-experience">
           <ResumeItem />
-          {/* <ResumeItem />
-          <ResumeItem /> */}
+          <ResumeItem />
+          <ResumeItem />
         </div>
       </section>
     </>

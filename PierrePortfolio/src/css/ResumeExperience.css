@@ -7,11 +7,15 @@
     max-width: var(--max-content-width);
     margin: var(--margin-zero);
     padding: var(--padding-body);
-    /* border: 1px solid red; */
 }
 
 #resume-section h1 {
     font-size: var(--section-h1-size);
+}
+
+#featured-experience {
+    display: grid;
+    gap: var(--grid-gap); 
 }
 
 @media (max-width: 991.98px) {
@@ -23,7 +27,6 @@
         max-width: var(--max-content-width);
         margin: var(--margin-zero);
         padding: var(--padding-body-sub);
-        /* border: 1px solid red; */
     }
 }
 
@@ -36,8 +39,15 @@
     border-bottom-right-radius: var(--border-radius);
     background-color: var(--card-background);
     color: var(--main-text-color) !important;
+    border: none;
+    /* border: 1px solid red; */
     transition: transform 0.3s ease;
-    /* border: none; */
+}
+
+#resume-item-body {
+    display: flex;
+    flex-direction: row;
+    gap: var(--grid-gap-resume);
 }
 
 .resume-item:hover {
@@ -45,8 +55,13 @@
     transform: scale(1.03);
 }
 
+.resume-item-years-worked {
+    width: 360px;
+}
+
 .resume-item-years-worked h1 {
-    font-size: var(--item-h1-size) !important;
+    font-size: var(--item-h3-size) !important;
+    font-weight: normal !important;
 }
 
 .resume-item-job-description h1 {
@@ -61,4 +76,18 @@
 
 .resume-item-job-description p {
     font-size: var(--item-h1-p-size) !important;
+}
+
+.skills-gained-item-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+    gap: var(--grid-gap-small);
+}
+
+@media (max-width: 991.98px) {
+    #resume-item-body {
+        display: flex;
+        flex-direction: column;
+        gap: var(--grid-gap-resume);
+    }
 }

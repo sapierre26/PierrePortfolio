@@ -4,9 +4,10 @@
     --sub-background-color: #274006;
     --main-accent-color: #F7C9CC;
     --sub-accent-color: #27060F;
-
-    /* SUPPORT COLORS */
     --main-text-color: #FFFFFF;
+    --image-overlay-color: rgba(0, 0, 0, 0.3);
+    --card-overlay-color: rgba(39, 6, 15, 0.3);
+    --card-background: rgba(0, 0, 0, 0);
 
     /* FONT SIZES */
     --navbar-brand-font-size: 40px;
@@ -20,6 +21,7 @@
 
     --item-h1-size: 22px;
     --item-h2-size: 20px;
+    --item-h3-size: 18px;
     --item-p-size: 20px;
     --item-list-size: 16px;
 
@@ -33,15 +35,15 @@
     --padding-size-navbar: 20px;
     --padding-body: 80px 0;
     --padding-body-sub: 60px;
+    --padding-skill-item: 7px 10px 7px 10px;
 
     --navbar-gap: 16px;
+    --grid-gap-small: 5px;
     --grid-gap: 30px;
+    --grid-gap-resume: 50px;
     --logo-gap: 7px;
 
     /* EXTRAS */
-    --image-overlay-color: rgba(0, 0, 0, 0.3);
-    --card-overlay-color: rgba(39, 6, 15, 0.3);
-    --card-background: rgba(0, 0, 0, 0);
     --border-radius: 20px;
     --logo-size: 25px;
 }
