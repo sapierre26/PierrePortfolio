@@ -38,6 +38,9 @@
 
 /* PROJECT ITEM */
 .project-item {
+    /* padding-bottom: var(--padding-item);
+    padding-left: var(--padding-item);
+    padding-right: var(--padding-item); */
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
     border-bottom-left-radius: var(--border-radius);
@@ -52,8 +55,13 @@
     transform: scale(1.03);
 }
 
+.project-item-main-rect {
+    padding: var(--padding-item);
+}
+
 .project-item-tab-rect {
     height: 20px;
+    width: auto;
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
     background-color: var(--main-accent-color);

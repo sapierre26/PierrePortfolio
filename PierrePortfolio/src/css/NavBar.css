@@ -1,5 +1,7 @@
 .navbar {
-    padding: var(--padding-size-navbar);
+    padding-left: var(--padding-size-navbar);
+    padding-right: var(--padding-size-navbar);
+    padding-top: var(--padding-size-navbar);
 }
 
 .navbar--none {
@@ -16,7 +18,7 @@
 }
 
 .navbar-toggler {
-    margin-right: var(--margin-navmab-right);
+    margin-right: var(--margin-navbar-right);
     border-color: var(--main-text-color) !important;
 }
 
