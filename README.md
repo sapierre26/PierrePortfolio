@@ -1,12 +1,23 @@
 # Pierre-Portfolio
 
-// Setup Instructions
-1. Install dependencies
-  npm install
-   cd PierrePortfolio/server
-   npm install express
-  npm install bootstrap@5.3.8
+<h1>Visit my site!</h1>
 
-3. Run app
-  cd PierrePortfolio
-  npm run dev
+<h1>Setup Instructions</h1>
+<ul>
+  <li>Install dependencies</li>
+    ```sh
+      npm install
+    ```
+
+    ```sh
+      npm install bootstrap@5.3.8
+    ```
+  <li>Run app</li>
+    ```sh
+      cd PierrePortfolio
+    ```
+
+    ```sh
+      npm run dev
+    ```
+</ul>
