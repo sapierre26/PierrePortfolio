@@ -6,7 +6,7 @@
     max-width: var(--max-content-width);
     margin: var(--margin-zero);
     padding: var(--padding-body);
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 #about-me-main-bio {
@@ -55,7 +55,6 @@
         max-width: var(--max-content-width);
         margin: var(--margin-zero);
         padding: var(--padding-body-sub);
-        border: 1px solid blue;
     }
 
     #about-me-main-bio {

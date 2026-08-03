@@ -7,7 +7,6 @@
 
     /* SUPPORT COLORS */
     --main-text-color: #FFFFFF;
-    --sub-text-color: #000000;
 
     /* FONT SIZES */
     --navbar-brand-font-size: 40px;
@@ -41,6 +40,8 @@
 
     /* EXTRAS */
     --image-overlay-color: rgba(0, 0, 0, 0.3);
+    --card-overlay-color: rgba(39, 6, 15, 0.3);
+    --card-background: rgba(0, 0, 0, 0);
     --border-radius: 20px;
     --logo-size: 25px;
 }

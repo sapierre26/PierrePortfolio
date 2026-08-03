@@ -1,0 +1,64 @@
+/* RESUME EXPERIENCE */
+#resume-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--grid-gap);
+    max-width: var(--max-content-width);
+    margin: var(--margin-zero);
+    padding: var(--padding-body);
+    /* border: 1px solid red; */
+}
+
+#resume-section h1 {
+    font-size: var(--section-h1-size);
+}
+
+@media (max-width: 991.98px) {
+    #resume-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: var(--grid-gap);
+        max-width: var(--max-content-width);
+        margin: var(--margin-zero);
+        padding: var(--padding-body-sub);
+        /* border: 1px solid red; */
+    }
+}
+
+
+/* RESUME ITEM */
+.resume-item {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    background-color: var(--card-background);
+    color: var(--main-text-color) !important;
+    transition: transform 0.3s ease;
+    /* border: none; */
+}
+
+.resume-item:hover {
+    background-color: var(--card-overlay-color);
+    transform: scale(1.03);
+}
+
+.resume-item-years-worked h1 {
+    font-size: var(--item-h1-size) !important;
+}
+
+.resume-item-job-description h1 {
+    font-size: var(--item-h1-size) !important;
+}
+
+.resume-item-job-description h2 {
+    font-size: var(--item-h2-size);
+    font-weight: normal !important;
+}
+
+
+.resume-item-job-description p {
+    font-size: var(--item-h1-p-size) !important;
+}

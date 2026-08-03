@@ -7,7 +7,6 @@
     max-width: var(--max-content-width);
     margin: var(--margin-zero);
     padding: var(--padding-body);
-    border: 1px solid red;
 }
 
 #projects-section h1 {
@@ -30,7 +29,6 @@
         max-width: var(--max-content-width);
         margin: var(--margin-zero);
         padding: var(--padding-body-sub);
-        border: 1px solid red;
     }
 
     #featured-projects {
@@ -39,7 +37,7 @@
 }
 
 /* PROJECT ITEM */
-.card {
+.project-item {
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
     border-bottom-left-radius: var(--border-radius);
@@ -50,7 +48,7 @@
     transition: transform 0.3s ease;
 }
 
-.card:hover {
+.project-item:hover {
     transform: scale(1.03);
 }
 
