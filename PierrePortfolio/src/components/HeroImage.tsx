@@ -7,7 +7,7 @@ function HeroImage() {
         <>
             <div className="hero-image">
                 <div className="hero-image-overlay">
-                    <NavBar variant="none" />
+                    {/* <NavBar variant="none" /> */}
                 </div>
             </div>
         </>

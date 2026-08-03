@@ -7,7 +7,7 @@ type Props = {
 }
 
 function NavBar({ variant = 'none' }: Props) {
-    const variantBg = `navbar sticky-top navbar-expand-lg navbar--${variant}`
+    const variantBg = `navbar fixed-top navbar-expand-lg navbar--${variant}`
     const [expanded, setExpanded] = useState(false);
 
     return (

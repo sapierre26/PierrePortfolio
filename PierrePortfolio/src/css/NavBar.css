@@ -1,7 +1,5 @@
 .navbar {
-    padding-left: var(--padding-size-navbar);
-    padding-right: var(--padding-size-navbar);
-    padding-top: var(--padding-size-navbar);
+    padding: var(--padding-size-navbar);
 }
 
 .navbar--none {
@@ -9,7 +7,7 @@
 }
 
 .navbar--blur {
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
 }
 
 #name-brand {
@@ -18,6 +16,7 @@
 }
 
 .navbar-toggler {
+    margin-right: var(--margin-navmab-right);
     border-color: var(--main-text-color) !important;
 }
 
