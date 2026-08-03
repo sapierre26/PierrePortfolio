@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { Container, Nav, Navbar } from 'react-bootstrap'
 import '../css/NavBar.css'
 
 type Props = {
@@ -6,26 +8,32 @@ type Props = {
 
 function NavBar({ variant = 'none' }: Props) {
     const variantBg = `navbar sticky-top navbar-expand-lg navbar--${variant}`
-    
+    const [expanded, setExpanded] = useState(false);
+
     return (
         <>
-            <nav className={variantBg}>
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Sanaia Pierre</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
+            <Navbar
+                expand="lg"
+                className={variantBg}
+                data-bs-theme="dark"
+                expanded={expanded}
+                onToggle={(isExpanded) => setExpanded(isExpanded)}
+            >
+                <Container>
+                    <Navbar.Brand id="name-brand" href="/">Sanaia Pierre</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
 
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <div className="navbar-nav" >
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
-                            <a className="nav-link active" aria-current="page" href="#about">About</a>
-                            <a className="nav-link active" aria-current="page" href="#projects">Projects</a>
-                            <a className="nav-link active" aria-current="page" href="#resume">Resume</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+                    <Nav onSelect={() => setExpanded(false)}>
+                        <Nav.Link href="/#">Home</Nav.Link>
+                        <Nav.Link href="/#about-me-section">About</Nav.Link>
+                        <Nav.Link href="/#projects-section">Projects</Nav.Link>
+                        <Nav.Link href="/#resume-section">Resume</Nav.Link>
+                    </Nav>
+                
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </>
     )
 }

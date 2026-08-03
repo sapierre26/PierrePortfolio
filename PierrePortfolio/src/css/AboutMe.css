@@ -26,6 +26,11 @@
     max-width: 100%;
     border-radius: var(--border-radius);
     object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+#about-me-img img:hover {
+    transform: scale(1.03);
 }
 
 #about-me-description h1 {
