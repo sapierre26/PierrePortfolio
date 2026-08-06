@@ -26,7 +26,7 @@ function About() {
         <div id="continued-bio">
             <p>Currently, I’ve continued my employment on my university campus as a Student Web Developer for the <b>Office of Academic Innovations & Programs (AIP)</b>. Here, I have worked on maintaining Drupal sites for the units that fall under AIP. Most notably, I developed the web pages for an event called the AI Symposium 2026, as well as an online flip book that was used as the agenda.</p>
 
-            <p>For my next steps, I’ve been accepted into the <b>Disney College Program</b>, which I will be participating in post-grad! I will be spending the next few months working for Walt Disney World. More importantly, I’m excited to meet so many new people in my cohort, network, develop some of my interpersonal skills, and hopefully, visit the Disney Parks!</p>
+            <p>For my next steps, I’ve been accepted into the <b>Disney College Program</b>, which I will be participating in post-grad! I will be spending the next few months working for Walt Disney. More importantly, I’m excited to meet so many new people in my cohort, network, develop some of my interpersonal skills, and hopefully, visit the Disney Parks!</p>
 
             <p>Once my program ends, I will be seeking an internship or entry-level roles in Software Engineering, web design and development, mobile app development, or any related fields. I hope to contribute to scalable software development while continuing to expand my knowledge of technical development skills.</p>
         </div>

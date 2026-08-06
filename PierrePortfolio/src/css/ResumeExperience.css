@@ -44,23 +44,25 @@
     transition: transform 0.3s ease;
 }
 
-#resume-item-body {
-    display: flex;
-    flex-direction: row;
-    gap: var(--grid-gap-resume);
-}
-
 .resume-item:hover {
     background-color: var(--card-overlay-color);
     transform: scale(1.03);
 }
 
+#resume-item-body {
+    display: flex;
+    flex-direction: row;
+    gap: var(--grid-gap);
+}
+
+
 .resume-item-years-worked {
-    width: 375px;
+    width: 100%;
+    max-width: 175px;
 }
 
 .resume-item-years-worked h1 {
-    font-size: var(--item-h3-size) !important;
+    font-size: var(--item-list-size) !important;
     font-weight: normal !important;
 }
 
@@ -80,29 +82,34 @@
 
 .skills-gained-item-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
-    gap: var(--grid-gap-small);
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+    gap: var(--grid-gap-smaller);
+    width: 100%;
+    max-width: 750px;
 }
 
 @media (max-width: 991.98px) {
     #resume-item-body {
         display: flex;
         flex-direction: column;
-        gap: var(--grid-gap-resume);
+        gap: var(--grid-gap-small);
     }
 }
 
 /* SKILL GAINED ITEM */
+.item-card {
+    width: 160px;
+}
+
 .item-card p {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 215px;
     padding: var(--padding-skill-item);
     border-radius: var(--border-radius);
     background-color: var(--sub-accent-color);
     color: var(--main-accent-color);
-    font-size: var(--item-list-size);
+    font-size: 10px;
     font-weight: bold;
     text-align: center;
 }

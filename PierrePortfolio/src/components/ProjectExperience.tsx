@@ -76,7 +76,7 @@ function Projects() {
 
                   <div className="project-item-links">
                     <a href="https://www.linkedin.com/in/sanaia-pierre-7104a8207/"><img src={linkedinLogo} alt="Light pink Linkedin logo that navigates to my Linkedin profile" /></a>
-                    <a href="sgpierre2003@gmail.com"><img src={emailLogo} alt="Light pink email logo that navigates to my Gmail" /></a>
+                    <a href="mailto:sgpierre2003@gmail.com"><img src={emailLogo} alt="Light pink email logo that navigates to my Gmail" /></a>
                     <a href={project.gitHubLink}><img src={githubLogo} alt="Light pink GitHub logo that navigates to my GithHub profile" /></a>
                     <a href={project.siteLink}><img src={siteLinkLogo} alt="Light pink site link logo that navigates to the link for this project, if applicable" /></a>
                   </div>

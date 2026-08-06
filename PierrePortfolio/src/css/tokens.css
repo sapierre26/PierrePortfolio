@@ -45,7 +45,8 @@
     --navbar-gap: 16px;
     --grid-gap-small: 5px;
     --grid-gap: 30px;
-    --grid-gap-resume: 50px;
+    --grid-gap-small: 15px;
+    --grad-gap-smaller: 10px;
     --logo-gap: 7px;
 
     /* EXTRAS */

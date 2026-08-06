@@ -6,27 +6,27 @@ const featuredExperience = {
     duration: "Aug. 2026 - PRESENT",
     location: "Disney College Program",
     title: "Recent Grad Participant",
-    desc: "Future Tasks: Connected with university students and recent graduates that have a diverse range of studies to strengthen professional network; Attended learning offering classes to obtain personal development skills; Learned about post-program opportunities at Disney and Disney history",
+    desc: "Future Tasks: Connected with university students and recent graduates that have a diverse range of studies to strengthen my professional network; Attended learning offering classes to obtain personal development skills; Learned about post-program opportunities at Disney and Disney history",
     skills: [
       {
-        skill1: "Skill Gained",
-        skill2: "Skill Gained",
-        skill3: "Skill Gained",
-        skill4: "Skill Gained",
-        skill5: "Skill Gained",
-        skill6: "Skill Gained"
+        skill1: "Networking",
+        skill2: "Communication",
+        skill3: "Personal Branding",
+        skill4: "Resume Building",
+        skill5: "Leadership Skills",
+        skill6: "Hospitality"
       }
     ]
   },
   "AIP": {
-    duration: "July 2025 - PRESENT",
+    duration: "July 2025 - Aug. 2026",
     location: "Cal Poly Office of Academic Innovations & Programs (AIP)",
     title: "Student Web Developer",
-    desc: "Maintained Drupal sites and routinely include up-to-date information, news, and resources for AIP and the AIP sub departments; Used images and graphics to display information and increase site engagement for an otherwise limited existing Cal Poly Drupal template, while following the accessibility compliance test",
+    desc: "Maintained Drupal sites and routinely included up-to-date information, news, and resources for AIP and the AIP sub departments; Used images and graphics to display information and increase site engagement on an otherwise limited existing Cal Poly Drupal template, while following the accessibility compliance guidelines",
     skills: [
       {
         skill1: "Figma",
-        skill2: "Accessibility (WCAG)",
+        skill2: "WCAG",
         skill3: "Drupal (CMS)",
         skill4: "PHP",
         skill5: "Adobe Illustrator",
@@ -44,8 +44,8 @@ const featuredExperience = {
         skill1: "Microsoft Excel",
         skill2: "MIcrosoft Word",
         skill3: "OneDrive",
-        skill4: "Adobe Suite",
-        skill5: "Accessibility (WCAG)",
+        skill4: "Adobe Illustrator",
+        skill5: "WCAG",
         skill6: "Equidox"
       }
     ]
