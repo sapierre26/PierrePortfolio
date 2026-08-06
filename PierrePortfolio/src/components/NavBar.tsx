@@ -25,10 +25,10 @@ function NavBar({ variant = 'none' }: Props) {
                     <Navbar.Collapse id="basic-navbar-nav">
 
                     <Nav onSelect={() => setExpanded(false)}>
-                        <Nav.Link href="/#">Home</Nav.Link>
-                        <Nav.Link href="/#about">About</Nav.Link>
-                        <Nav.Link href="/#projects">Projects</Nav.Link>
-                        <Nav.Link href="/#resume">Resume</Nav.Link>
+                        <Nav.Link href="/PierrePortfolio/#">Home</Nav.Link>
+                        <Nav.Link href="/PierrePortfolio/#about">About</Nav.Link>
+                        <Nav.Link href="/PierrePortfolio/#projects">Projects</Nav.Link>
+                        <Nav.Link href="/PierrePortfolio/#resume">Resume</Nav.Link>
                     </Nav>
                 
                     </Navbar.Collapse>
