@@ -13,7 +13,7 @@ const featuredProjects = {
     techStack: [
       { item1: "React / Bootstrap",
         item2: "Vite (frontend)",
-        item3: "HTML / CSS",
+        item3: "TypeScript / HTML / CSS",
       }
     ],
     gitHubLink: "https://github.com/sapierre26/PierrePortfolio",
