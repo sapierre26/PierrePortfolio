@@ -20,7 +20,7 @@ function NavBar({ variant = 'none' }: Props) {
                 onToggle={(isExpanded) => setExpanded(isExpanded)}
             >
                 <Container>
-                    <Navbar.Brand id="name-brand" href="/">Sanaia Pierre</Navbar.Brand>
+                    <Navbar.Brand id="name-brand" href="/#">Sanaia Pierre</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
 
