@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../css/tokens.css'
 import '../css/ProjectExperience.css'
 import linkedinLogo from '../assets/icons/linkedin.svg'
@@ -51,7 +52,10 @@ function Projects() {
   return (
     <>
       <section id="projects">
-        <h1>FEATURED PROJECT EXPERIENCE</h1>
+        <div id="project-heading">
+          <h1>FEATURED PROJECT EXPERIENCE</h1>
+          <Link id="view-all" to="/viewallprojects">VIEW ALL PROJECTS</Link>
+        </div>
 
         <div id="featured-projects">
           {Object.keys(featuredProjects).map((key) => {

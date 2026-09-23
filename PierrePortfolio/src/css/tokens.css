@@ -43,10 +43,10 @@
     --padding-footer: 20px 60px 20px 60px;
 
     --navbar-gap: 16px;
-    --grid-gap-small: 5px;
     --grid-gap: 30px;
     --grid-gap-small: 15px;
     --grad-gap-smaller: 10px;
+    --grid-gap-smallest: 5px;
     --logo-gap: 7px;
 
     /* EXTRAS */

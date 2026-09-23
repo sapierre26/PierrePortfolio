@@ -1,4 +1,9 @@
-/* PROJECT EXPERIENCE */
+body {
+  margin: var(--margin-zero);
+  padding: var(--padding-zero);
+  color: var(--main-text-color);
+}
+
 #projects {
     display: flex;
     flex-direction: column;
@@ -11,14 +16,6 @@
 
 #project-heading h1 {
     font-size: var(--section-h1-size);
-}
-
-#view-all {
-    padding-left: var(--padding-zero);
-    color: var(--main-text-color);
-    font-size: var(--item-h2-size);
-    text-decoration: underline;
-    text-decoration-color: var(--main-text-color);
 }
 
 #featured-projects {
@@ -100,4 +97,3 @@
     height: var(--logo-size);
     width: var(--logo-size);
 }
-
