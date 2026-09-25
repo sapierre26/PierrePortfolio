@@ -18,6 +18,14 @@ body {
     font-size: var(--section-h1-size);
 }
 
+#back {
+    padding-left: var(--padding-zero);
+    color: var(--main-text-color);
+    font-size: var(--item-h2-size);
+    text-decoration: underline;
+    text-decoration-color: var(--main-text-color);
+}
+
 #featured-projects {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
