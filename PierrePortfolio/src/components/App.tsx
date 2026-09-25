@@ -12,6 +12,28 @@ import Footer from './Footer.tsx'
 
 function App() {
   return (
+    // <div className="background-gradient">
+    //   <Routes>
+    //     <Route 
+    //       path="/"
+    //       element={
+    //         <>
+    //           <HeroImage />
+
+    //            <div>
+    //              <NavBar variant="blur" />
+    //              <Header />
+    //              <About />
+    //              <Projects />
+    //               <Resume />
+    //              <Footer />
+    //             </div>
+    //         </>
+    //       }
+    //     />
+    //     <Route path="/viewallprojects" element={<ViewAllProjects />} />
+    //   </Routes>
+    // </div>
     <BrowserRouter basename="/PierrePortfolio">
       <Routes>
         <Route
