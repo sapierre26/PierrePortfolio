@@ -7,14 +7,27 @@ import githubLogo from '../assets/icons/github.svg'
 import siteLinkLogo from '../assets/icons/site_link.svg'
 
 const featuredProjects = {
+  "Countdown to Doomsday Preparation Tracker": {
+    title: "Countdown to Doomsday Preparation Tracker",
+    duration: "September 2026 - PRESENT",
+    desc: "A dynamic Marvel content tracker that allows users to keep track of what movies and TV shows they’ve watched in preparation for Avengers: Doomsday.",
+    techStack: [
+      { item1: "React / Bootstrap (CSS)",
+        item2: "JavaScript",
+        item3: "ASP.NET Core / C#",
+      }
+    ],
+    gitHubLink: "",
+    siteLink: "",
+  },
   "Pierre Portfolio": {
     title: "Pierre Portfolio",
     duration: "July - August 2026",
     desc: "This is my online portfolio, designed in Figma and built using Vite, React, and Bootstrap. It’s meant for me to practice my Web Dev skills and showcase the projects I’ve worked on.",
     techStack: [
-      { item1: "React / Bootstrap",
+      { item1: "React / Bootstrap (CSS)",
         item2: "Vite (frontend)",
-        item3: "TypeScript / HTML / CSS",
+        item3: "TypeScript / HTML",
       }
     ],
     gitHubLink: "https://github.com/sapierre26/PierrePortfolio",
@@ -46,43 +59,30 @@ const featuredProjects = {
     gitHubLink: "https://github.com/sapierre26/TriviaGame",
     siteLink: "",
   },
-  "Trivia GO! Mobile App1": {
-    title: "Trivia GO! Mobile App",
-    duration: "January - April 2026",
-    desc: "A trivia game mobile application created to strengthen my skills in Mobile App Development. Some features include a game timer, varying question times, and score tracking.",
+  "ESPv3 Capstone Project": {
+    title: "ESPv3 Capstone Project",
+    duration: "September 2025 - June 2026",
+    desc: "Given a legacy codebase, continued the modernization and functionality extension of PG&E’s existing Electronic Surveys application, that's used to create, edit, review, and archive radiological surveys.",
     techStack: [
-      { item1: "Android Studio",
-        item2: "Kotlin (Java)",
-        item3: "Jetpack Compose",
+      { item1: "ASP.NET Core / C#",
+        item2: "MudBlazor",
+        item3: "HTML / CSS",
       }
     ],
-    gitHubLink: "https://github.com/sapierre26/TriviaGame",
-    siteLink: "",
+    gitHubLink: "",
+    siteLink: "https://drive.google.com/file/d/1HWfNKU34z6SY7vz7p5_Bl4cleEu04Ngg/view?usp=sharing",
   },
-  "Trivia GO! Mobile App2": {
-    title: "Trivia GO! Mobile App",
-    duration: "January - April 2026",
-    desc: "A trivia game mobile application created to strengthen my skills in Mobile App Development. Some features include a game timer, varying question times, and score tracking.",
+  "Redline Relay Game": {
+    title: "Redline Relay Game",
+    duration: "January - March 2026",
+    desc: "A survival game developed in a 3D environment, implementing variables to keep track of changing states, using Unity’s visual assets, and utilizing effective game design practices.",
     techStack: [
-      { item1: "Android Studio",
-        item2: "Kotlin (Java)",
-        item3: "Jetpack Compose",
+      { item1: "Unity (C#)",
+        item2: "Visual Studio",
+        item3: "GitHub Desktop",
       }
     ],
-    gitHubLink: "https://github.com/sapierre26/TriviaGame",
-    siteLink: "",
-  },
-  "Trivia GO! Mobile App3": {
-    title: "Trivia GO! Mobile App",
-    duration: "January - April 2026",
-    desc: "A trivia game mobile application created to strengthen my skills in Mobile App Development. Some features include a game timer, varying question times, and score tracking.",
-    techStack: [
-      { item1: "Android Studio",
-        item2: "Kotlin (Java)",
-        item3: "Jetpack Compose",
-      }
-    ],
-    gitHubLink: "https://github.com/sapierre26/TriviaGame",
+    gitHubLink: "https://github.com/TheodoreAkritidis/Redline-Relay.git",
     siteLink: "",
   }
 }
@@ -110,7 +110,7 @@ function ViewAllProjects() {
 
                             <p className="card-text">{project.desc}</p>
 
-                            <p>Programming Languages</p>
+                            <p>Tech Stack</p>
                             <ul>
                                 <li>{project.techStack[0].item1}</li>
                                 <li>{project.techStack[0].item2}</li>
